@@ -93,5 +93,5 @@ void ch1_prob1()
     test_nonunique(non_unique_test);
     test_unique   (unique_test);
 
-    print_string(std::string("Chapter 1 Problem 1 testing passed\n\n"));
+    print_string(std::string("Chapter 1 Problem 1 testing passed\n"));
 }

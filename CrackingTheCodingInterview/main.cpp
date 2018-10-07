@@ -12,7 +12,7 @@ int main()
     ch1_prob1();
     ch1_prob2();
 
-    std::wstring hello_world = L"Hello, buttmunch\n\n";
+    std::wstring hello_world = L"\n\nHello, buttmunch\n\n";
     OutputDebugString(hello_world.c_str());
 
 }
