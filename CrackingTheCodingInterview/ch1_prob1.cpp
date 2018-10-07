@@ -1,6 +1,6 @@
 #include <ch1_prob1.h>
 #include <unordered_set>
-#include <string>
+#include <print_to_console.h>
 #include <array>
 #include <bitset>
 #include <assert.h>
@@ -93,6 +93,5 @@ void ch1_prob1()
     test_nonunique(non_unique_test);
     test_unique   (unique_test);
 
-    std::wstring hello_world = L"Chapter 1 Problem 1 testing passed\n\n";
-    OutputDebugString(hello_world.c_str());
+    print_string(std::string("Chapter 1 Problem 1 testing passed\n\n"));
 }

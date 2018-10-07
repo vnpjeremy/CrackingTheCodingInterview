@@ -21,9 +21,21 @@
     <ClCompile Include="ch1_prob1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ch1_prob2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="print_to_console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ch1_prob1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch1_prob2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="print_to_console.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
