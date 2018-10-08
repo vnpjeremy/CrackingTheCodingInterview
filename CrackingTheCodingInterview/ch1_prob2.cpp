@@ -6,8 +6,13 @@
 //Can do this in O(n) time and O(n) space with a buffer
 //or... could std::swap()
 
+void reverse_string_in_place(std::string & input_string)
+{
+    std::reverse(input_string.begin(), input_string.end());
+}
+
 //char* reverse_string_in_place(char const* input_string) //can't be const if we are attempting in-place
-void reverse_string_in_place(char* input_string)
+void reverse_charstar_in_place(char* input_string)
 {
     //Without the length of an std::string, this will be 2n, but still O(n)
     //With the length we could directly assign a pointer to the end of the string.
@@ -48,11 +53,20 @@ void ch1_prob2()
     char string1[] = "shoop";
     char string2[] = "deadpool";
 
-    reverse_string_in_place(string1);
-    reverse_string_in_place(string2);
+    std::string st1(string1);
+    std::string st2(string2);
+
+    reverse_charstar_in_place(string1);
+    reverse_charstar_in_place(string2);
+
+    reverse_string_in_place(st1);
+    reverse_string_in_place(st2);
 
     print_string("The swapped string1 is " + std::string(string1));
     print_string("The swapped string2 is " + std::string(string2));
+
+    print_string("The swapped st1 is " + st1);
+    print_string("The swapped st2 is " + st2);
 
     
 }
