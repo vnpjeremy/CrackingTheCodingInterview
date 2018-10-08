@@ -3,6 +3,7 @@
 #include <string>
 #include <ch1_prob1.h>
 #include <ch1_prob2.h>
+#include <ch1_prob3.h>
 
 int main()
 {
@@ -11,6 +12,7 @@ int main()
 
     ch1_prob1();
     ch1_prob2();
+    ch1_prob3();
 
     std::wstring hello_world = L"\n\nHello, buttmunch\n\n";
     OutputDebugString(hello_world.c_str());
