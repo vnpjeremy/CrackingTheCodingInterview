@@ -120,6 +120,7 @@
     <ClCompile Include="ch1_prob1.cpp" />
     <ClCompile Include="ch1_prob2.cpp" />
     <ClCompile Include="ch1_prob3.cpp" />
+    <ClCompile Include="ch1_prob4.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="print_to_console.cpp" />
   </ItemGroup>
@@ -127,6 +128,7 @@
     <ClInclude Include="ch1_prob1.h" />
     <ClInclude Include="ch1_prob2.h" />
     <ClInclude Include="ch1_prob3.h" />
+    <ClInclude Include="ch1_prob4.h" />
     <ClInclude Include="print_to_console.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -30,6 +30,9 @@
     <ClCompile Include="ch1_prob3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ch1_prob4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ch1_prob1.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ch1_prob3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch1_prob4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

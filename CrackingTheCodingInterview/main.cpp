@@ -4,12 +4,14 @@
 #include <ch1_prob1.h>
 #include <ch1_prob2.h>
 #include <ch1_prob3.h>
+#include <ch1_prob4.h>
 
 void _chapter1()
 {
     ch1_prob1();
     ch1_prob2();
     ch1_prob3();
+    ch1_prob4();
 }
 
 int main()
