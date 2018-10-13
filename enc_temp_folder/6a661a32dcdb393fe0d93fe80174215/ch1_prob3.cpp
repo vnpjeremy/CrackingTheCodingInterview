@@ -58,9 +58,7 @@ bool is_an_anagram(char const*const arg1, char const*const arg2)
     std::copy(arg1, arg1 + arg1_length, arg1_copy.get());
     std::copy(arg2, arg2 + arg2_length, arg2_copy.get());
 
-    std::sort(arg1_copy.get(), arg1_copy.get() + arg1_length); //WTH you can't use non-static member functions to call std::sort??
-                                                               //we need to use bind or some similar trick to get this even to work?
-                                                               //what a sham! put the damn things in a vector??
+    std::sort(arg1_copy.get(), arg1_copy.get() + arg1_length);
     std::sort(arg2_copy.get(), arg2_copy.get() + arg2_length);
 
     bool const is_anagram = std::equal(arg1, arg1 + arg1_length, arg2);
